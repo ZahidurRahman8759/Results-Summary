@@ -29,8 +29,9 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL HTML: [Add solution URL here](https://github.com/ZahidurRahman8759/Results-Summary/blob/4df2dcb5edce064f288f390ccbd0e1804a2788c3/index.html)
+- Solution URL CSS: [Add solution URL here](https://github.com/ZahidurRahman8759/Results-Summary/blob/4df2dcb5edce064f288f390ccbd0e1804a2788c3/style.css)
+- Live Site URL: [Add live site URL here](https://zahidurrahman8759.github.io/Results-Summary/)
 
 ## My process
 
