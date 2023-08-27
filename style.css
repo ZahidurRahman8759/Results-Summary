@@ -1,0 +1,218 @@
+    @font-face {
+        font-family: Hanken;
+        src: url(./assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+    }
+
+    body {
+        background-color: whitesmoke;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Hanken;
+    }
+
+    section {
+        background-color: white;
+        border-radius: 20px;
+        width: 600px;
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, .2);
+        display: flex;
+    }
+
+    .result, .summary {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .result {
+        background: linear-gradient(to bottom,hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+        border-radius: 20px;
+        text-align: center;
+    }
+
+    .result-title {
+        color: gainsboro;
+        font-weight: bold;
+        font-size: 1rem;
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+
+    .result-scores {
+        width: 150px;
+        height: 150px;
+        border-radius: 100%;
+        background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main-score {
+        color: white;
+        font-size: 3rem;
+        font-weight: bold;
+        margin: 0;
+    }
+
+    .total-score {
+        color: gainsboro;
+        font-size: small;
+    }
+
+    .result-description {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .description-title {
+        color: white;
+        font-size: 1.5rem;
+        font-weight: 600;
+        letter-spacing: .1rem;
+    }
+
+    .description-details {
+        color: gainsboro;
+        padding-bottom: 30px;
+    }
+
+    .summary {
+        gap: 25px;
+    }
+
+    .summary-title {
+        width: 75%;
+        color: hsl(224, 30%, 27%);
+        font-weight: 600;
+        font-size: 1.2rem;
+        margin-top: 30px;
+    }
+
+    .summary-details {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .summary-details div {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 10px;
+    }
+
+    .summary-details p {
+        color: grey;
+    }
+
+    svg {
+        width: 18px;
+    }
+
+    span {
+        color: hsl(224, 30%, 27%);
+        font-weight: bold;
+        margin-left: 40px;
+    }
+
+    .reaction-box {
+        background-color: hsl(0, 100%, 67%, .1);
+    }
+
+    #reaction {
+        color: hsl(0, 100%, 67%);
+        font-weight: 600;
+    }
+
+    .memory-box {
+        background-color: hsl(39, 100%, 56%, .1);
+    }
+
+    #memory {
+        font-weight: 600;
+        color: hsl(39, 100%, 56%);
+    }
+
+    .verbal-box {
+        background-color: hsl(166, 100%, 37%, .1);
+    }
+
+    #verbal {
+        font-weight: 600;
+        color: hsl(166, 100%, 37%);
+    }
+
+    .visual-box {
+        background-color: hsl(234, 85%, 45%, .1);
+    }
+
+    #visual {
+        font-weight: 600;
+        color: hsl(234, 85%, 45%);
+    }
+
+    .button {
+        background-color: hsl(224, 30%, 27%);
+        color: white;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 85px;
+        padding-right: 85px;
+        border-radius: 30px;
+        margin-bottom: 30px;
+    }
+
+    .button:hover {
+        background: linear-gradient(to bottom, hsl(256, 72%, 46%), hsl(241, 72%, 46%));
+        cursor: pointer;
+    }
+
+    @media (max-width: 500px) {
+
+        body {
+            height: 100%;
+        }
+
+        section {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .result, .summary {
+            width: 100%;
+        }
+
+        .result {
+            border-top-left-radius: 0px;
+            border-top-right-radius: 0px;
+        }
+
+        .result-description {
+            padding-left: 60px;
+            padding-right: 60px;
+        }
+
+        .summary-details div {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        span {
+            margin-left: 80px;
+        }
+
+        .button {
+            padding-left: 115px;
+            padding-right: 115px;
+        }
+    }
